@@ -18,6 +18,7 @@
 		91BDB3C12C26A24E00B70274 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BDB3C02C26A24E00B70274 /* GradientButtonStyle.swift */; };
 		91BDB3C32C26C3F800B70274 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BDB3C22C26C3F800B70274 /* CustomCircleView.swift */; };
 		91BDB3C52C26CA4100B70274 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BDB3C42C26CA4100B70274 /* MotionAnimationView.swift */; };
+		91BDB3C82C26D4C500B70274 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BDB3C72C26D4C500B70274 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		91BDB3C02C26A24E00B70274 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		91BDB3C22C26C3F800B70274 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		91BDB3C42C26CA4100B70274 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		91BDB3C72C26D4C500B70274 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,7 @@
 				91BDB3BB2C25754700B70274 /* Utility */,
 				91BDB3B82C25722A00B70274 /* Component */,
 				91BDB3A82C25673000B70274 /* HikeAppApp.swift */,
-				91BDB3AA2C25673000B70274 /* ContentView.swift */,
+				91BDB3C62C26D48600B70274 /* Screen */,
 				91BDB3AC2C25673100B70274 /* Assets.xcassets */,
 				91BDB3AE2C25673100B70274 /* Preview Content */,
 			);
@@ -102,6 +104,15 @@
 				91BDB3C02C26A24E00B70274 /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		91BDB3C62C26D48600B70274 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				91BDB3AA2C25673000B70274 /* ContentView.swift */,
+				91BDB3C72C26D4C500B70274 /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 				91BDB3C32C26C3F800B70274 /* CustomCircleView.swift in Sources */,
 				91BDB3B72C256F4500B70274 /* CardView.swift in Sources */,
 				91BDB3A92C25673000B70274 /* HikeAppApp.swift in Sources */,
+				91BDB3C82C26D4C500B70274 /* SettingsView.swift in Sources */,
 				91BDB3BF2C25AB7600B70274 /* CustomButtonView.swift in Sources */,
 				91BDB3C12C26A24E00B70274 /* GradientButtonStyle.swift in Sources */,
 				91BDB3C52C26CA4100B70274 /* MotionAnimationView.swift in Sources */,
