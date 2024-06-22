@@ -53,6 +53,26 @@ struct SettingsView: View {
             // MARK: section icons
             
             // MARK: section about
+            Section(
+                header: Text("ABOUT THE APP"),
+                footer: HStack {
+                    Spacer()
+                    Text("Copyright © All right reserved.")
+                    Spacer()
+                }
+                    .padding(.vertical, 8)
+            ) {
+                // 1. basic label content
+                // LabeledContent("Application", value: "Hike")
+                // 2. advanced labeled content
+                CustomListRowView(rowLable: "Application", rowIcon: "apps.iphone", rowContent: "HIKE", rowTintColor: .blue)
+                CustomListRowView(rowLable: "Compatibility", rowIcon: "info.circle", rowContent: "iOS, iPadOS", rowTintColor: .red)
+                CustomListRowView(rowLable: "Technology", rowIcon: "swift", rowContent: "Swift", rowTintColor: .orange)
+                CustomListRowView(rowLable: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
+                CustomListRowView(rowLable: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "John Doe", rowTintColor: .mint)
+                CustomListRowView(rowLable: "Designer", rowIcon: "paintpalette", rowContent: "Robert", rowTintColor: .pink)
+                CustomListRowView(rowLable: "Website", rowIcon: "globe", rowTintColor: .indigo, rowLinkLable: "Mobileledge", rowLinkDestination: "https://medium.com/@mobileledge")
+            }
         }
     }
 }
